@@ -1,0 +1,17 @@
+import React, { Component } from 'react';
+
+class ClassEventHandling extends Component {
+
+    clickHandler(){
+        console.log('button clicked')
+    }
+    render() {
+        return (
+            <div>
+                <button onClick={this.clickHandler}>Click me</button>
+            </div>
+        );
+    }
+}
+
+export default ClassEventHandling;
