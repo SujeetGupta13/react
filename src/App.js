@@ -1,7 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import Greet from './components/Greet';
-import MyComponent from './components/Greet';
+import{ Greet } from './components/Greet';
 import ClassComponent from './components/ClassComponent';
 import JsxExample from './components/JsxExample';
 import PropsEx from './components/ProspEx';
@@ -13,7 +12,6 @@ import DestructuringPropsClass from './components/DestructuringPropsClass'
 function App() {
   return (
     <div className="App">
-      <MyComponent />
       <Greet />
       <ClassComponent name='Sujeet'heroName='SuperMan'/>
       <JsxExample />
