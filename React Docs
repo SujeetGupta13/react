@@ -1,0 +1,33 @@
+React is JS library not a Framework.
+React Does focus only on building UI not any other thing like routing or http request.
+It has rich ecosystem and plays very well with other libraries to build a full fledged web application(like handling routing and httpRequest).
+React has a component based architecture whicj lets us breaksdown our appl into smaller compoennts and then compose intoa complex UI.
+React component develioped using react can be used in angular or vue by passing right data.
+
+React is declarative means Tell React what you want and react will build the actual UI with react DOM libraries.This is declarative paradigm.
+Imperarive paradigm --> This implements algorithm in explicit steps.
+React Native is for developing Mobile apps.
+
+**Prerequisites fro React:
+ HTML, CSS, Javascript, ES6.
+ javascript --> this keyword, filter, map and reduce
+ ES6 --> let & const, arrow fn, template literals, object literals, default parameteres, rest and spread operators and destructuring assigment. 
+ ReactContent : Fundamentals, HTTP, Routing, Redux (used foir state management), Utilities
+
+ For React, We need node js to be installed in our system. npm gets installed with Node. and npx comes with npm 5.2 or higher. 
+ create-react-app is CLI tool to start with React(create React projects etc.). 
+ To Create react Project: 1. npx create-react-app <projectname>(project name cannot have Big letter). after creating project. cd projectname  and then npm start to start the react server on 3000 default port.
+ 2. "npm install -g create-react-app" to install create-react-app globally and then create project using create-react-app <projectname>. 
+ In the 2nd way we will ahve to update the create-react-app CLI on time to time.
+
+ index.html file is the only html file. that we are going to have in our aplication. it will have a <div> element with id 'root'. ReactDOM  will control this DOM element with the help of React componet <App>. when server starts then index.html gets loadd into browser the index.js load the <App> component into this html body with element <div id="root"></div>. and the html inside <App> component loaded into index.html. 
+
+ Fucntional Compo:- Absence of this keyword. Since state is not availble so, it gives a opportunity to think the solution about how to maintain the data. Mainly responsible for UI. try to use functional component as much as possible. Stateless/dumb/presentational(But with React 16.7.0.alpha release its no more a stateless. (Hooks has been introduced which allows to maintain state and have life cycle hooks)
+ Class Component :-Maintain their own private data-State. Provide life cycle hooks. Statefull/Smart/Container
+
+ npm i es7 : to install es 7
+
+If-else does not work inside JSX.
+ternary operator can be used inside JSX
+
+In html, form element are responsible for hadling the element values, But in React, we want to control the value s of form element by React. Those element, whose values are controlled by React called Controlled component.

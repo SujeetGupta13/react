@@ -11,4 +11,4 @@ class ClassComponent extends Component{
     }
 }
 
-export default ClassComponent;
+export default ClassComponent;  //class component tutorial
