@@ -5,12 +5,14 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import App2 from './App2';
 import AdvanceConceptApp from './AdvanceConceptApp';
+import RoutingApp from './RoutingApp';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App/>
+    {/* <App/> */}
    {/* <App2 /> */}
    {/* <AdvanceConceptApp /> */}
+   <RoutingApp />
   </React.StrictMode>,
   document.getElementById('root')
 );
